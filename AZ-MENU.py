@@ -117,7 +117,7 @@ def main_menu():
 
         elif choice == "2":
             clear()
-            print("\n  \033[1;93m[+] Starting File Create Menu...\033[0m\n")
+            print("  \033[1;93m[+] Starting File Create Menu...\033[0m")
             try:
                 import FCX
                 FCX.main()
